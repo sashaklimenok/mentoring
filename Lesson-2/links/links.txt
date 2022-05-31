@@ -1,0 +1,14 @@
+IMAGE CONVERTER:
+  https://pixlr.com/ru/editor/                  | умеет работать с psd (формат файлов Photoshop)
+  https://tinypng.com/                          | умеет обрезать
+  https://www.canva.com/ru_ru/fotoredaktor/     | умеет обрезать и очень удобный
+
+инструменты для формирования data:URL:
+  https://base64.guru/converter/encode/image/jpg
+  https://b64.io/
+
+Convert to JPEG:
+  https://www.jpeg.io/
+
+FavGenerator:
+  https://realfavicongenerator.net/
