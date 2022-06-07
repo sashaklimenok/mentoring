@@ -10,3 +10,63 @@
   margin-top: 70px;
   background: lime;
 }
+
+.background {
+  height: 700px;
+  background-image: url('./images/background.png');
+  background-color: red;
+
+  /* Repeating */
+  background-repeat: no-repeat; /*— не повторять.*/
+  background-repeat: repeat-x; /*— повторять по горизонтали.*/
+  background-repeat: repeat-y; /*— повторять по вертикали.*/
+  background-repeat: repeat; /*— повторять по вертикали и горизонтали.*/
+
+  /* Positions */
+  background-position: left top; /*— слева вверху контейнера.*/
+  background-position: center top; /*— по центру вверху контейнера.*/
+  background-position: right top; /*— справа вверху контейнера.*/
+  background-position: left center; /* — слева по центру контейнера.*/
+  background-position: center center; /*— по центру контейнера.*/
+  background-position: right center; /*— справа по центру контейнера.*/
+  background-position: left bottom; /*— слева внизу контейнера.*/
+  background-position: center bottom; /*— по центру внизу контейнера*/
+  background-position: right bottom; /*— справа внизу контейнера.*/
+  /*background-position: /*размер размер; /*— произвольная абсолютная позиция внутри контейнера.*/
+  /*background-position: процент процент; — произвольная относительная позиция внутри контейнера.
+  /* По умолчанию, позиция задана как left top. */
+
+  
+  /* Attachment */
+  background-attachment: fixed;
+
+  /* Size */
+  background-size: cover;
+}
+
+.sprite-example {
+  width: calc(25px * 5);
+  height: calc(25px * 4);
+  border: 1px solid orange;
+}
+
+
+.sprite {
+  background-image: url('./images/smileys.png');
+  background-repeat: no-repeat;
+  background-position-x: calc(25px - calc(25px * 5));
+  width: 25px;
+  height: 25px;
+  border: solid red 1px;
+}
+
+table {
+  border: 1px solid grey;
+  width: 600px;
+}
+th {
+  border: 1px solid grey;
+}
+td {
+  border: 1px solid grey;
+}
