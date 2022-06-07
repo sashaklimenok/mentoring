@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* особенности элементов html и body:
+ - body имеет margin 8px
+ - без doctype html5 - имеют высоту не менее окна браузера
+ - их ширина зависит от наличия скроллбара */
+}
+
 .first-section {
   background: tomato;
 }
