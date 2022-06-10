@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.header  {
+  background: yellow;
+  height: 100px;
+}
+
+.sidebar {
+  background: blue;
+  height: 100px;
+}
+
+.content {
+  background: pink;
+  height: 100px;
+}
+
+.article {
+  background: green;
+  height: 100px;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  background: orange;
+  height: 100px;
+}
