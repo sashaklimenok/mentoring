@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body, p, ul, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: rgb(94, 213, 205);
+  height: 60px;
+}
+
+.content {
+  overflow: auto;
+  position: relative;
+  min-height: calc(100vh - 60px - 60px);
+}
+
+.sidebar {
+  padding: 20px;
+  background: rgb(185, 45, 45);
+  float: left;
+  width: 30%;
+  min-width: 320px;
+  min-height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.main {
+  background: rgb(45, 185, 87);
+  padding: 20px;
+  width: 70%;
+  min-width: 320px;
+  margin-left: 30%;
+}
+
+.footer {
+  height: 60px;
+  background: rgb(57, 45, 185);
+}
