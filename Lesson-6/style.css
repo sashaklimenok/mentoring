@@ -1,0 +1,43 @@
+/* * {
+  margin: 100px;
+} */
+
+/* p {
+  margin: 100px;
+} */
+
+/* a[href="#"] {
+  background: red;
+} */
+
+/* a[href^="t"] {
+  background: red;
+}
+a[href$="d"] {
+  background: red;
+} */
+
+/* h3 + p {
+  background-color: red;
+} */
+
+/* h3 ~ p {
+  background-color: aquamarine;
+} */
+
+/* a[href^='http://'],
+a[href^='https://'] {
+  color: red;
+} */
+
+/* a:not([href^='http://']):not([href^='https://']) {
+  color: green;
+} */
+
+/* p:not(.classy) {
+  color: red;
+} */
+
+/* body :not(p) {
+  color: green;
+} */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lesson 6</title>
+</head>
+
+<body>
+
+  <!-- 
+    Универсальный
+    [атрибут] 
+    [атрибут=значение]
+    [атрибут^=значение]
+    [атрибут*=значение]
+
+    Селектор элементов по нескольким критериям сразу
+    div.out
+    div.out.main
+    a.back[href^='http://'] 
+
+    Иерархические селекторы
+    p span
+    p > span
+    h3 + p
+    h3 ~ p
+
+   -->
+
+  <h1>Title</h1>
+  <ul>
+    <li><a href="test">link-1</a></li>
+    <li><a href="#">link-2</a></li>
+    <li><a href="#end">link-3</a></li>
+  </ul>
+  <div class="out main">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur voluptates distinctio vitae et sunt.
+      Nostrum ea voluptatum, inventore fugit assumenda molestiae expedita tenetur odit nobis consequuntur, asperiores
+      alias, dolor blanditiis!
+    </p>
+  </div>
+  <main>
+    <h3>main</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse architecto earum quibusdam eligendi quod
+      voluptatem et? Officiis, qui, incidunt dolorum error pariatur esse magni facilis quos sequi explicabo voluptate,
+      suscipit itaque! Pariatur minus deserunt totam eveniet sint magnam placeat recusandae provident, vel laborum
+      necessitatibus possimus, expedita, laudantium qui architecto?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse architecto earum quibusdam eligendi quod
+      voluptatem et? Officiis, qui, incidunt dolorum error pariatur esse magni facilis quos sequi explicabo voluptate,
+      suscipit itaque! Pariatur minus deserunt totam eveniet sint magnam placeat recusandae provident, vel laborum
+      necessitatibus possimus, expedita, laudantium qui architecto?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse architecto earum quibusdam eligendi quod
+      voluptatem et? Officiis, qui, incidunt dolorum error pariatur esse magni facilis quos sequi explicabo voluptate,
+      suscipit itaque! Pariatur minus deserunt totam eveniet sint magnam placeat recusandae provident, vel laborum
+      necessitatibus possimus, expedita, laudantium qui architecto?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse architecto earum quibusdam eligendi quod
+      voluptatem et? Officiis, qui, incidunt dolorum error pariatur esse magni facilis quos sequi explicabo voluptate,
+      suscipit itaque! Pariatur minus deserunt totam eveniet sint magnam placeat recusandae provident, vel laborum
+      necessitatibus possimus, expedita, laudantium qui architecto?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique esse architecto earum quibusdam eligendi quod
+      voluptatem et? Officiis, qui, incidunt dolorum error pariatur esse magni facilis quos sequi explicabo voluptate,
+      suscipit itaque! Pariatur minus deserunt totam eveniet sint magnam placeat recusandae provident, vel laborum
+      necessitatibus possimus, expedita, laudantium qui architecto?</p>
+  </main>
+
+
+  <!-- Примеры с display -->
+
+  <div class="container">
+    <p style="display: inline-block; width: 110px; border: solid red 1px">У меня живет козленок.</p>
+    <p style="display: inline-block; width: 100px; border: solid red 1px">Я козленка в сад зеленый отнесу.</p>
+    <p style="display: inline-block; width: 120px; border: solid red 1px">Он заблудится в саду.</p>
+
+    <p style="display: inline-block; width: 50px; border: solid red 1px;
+    vertical-align: top">У меня</p>
+    <p style="display: inline-block; width: 90px; border: solid red 1px">
+      Я козленка в сад зеленый отнесу.</p>
+    <p style="display: inline-block; width: 50px; border: solid red 1px;
+    vertical-align: 20px">в саду</p>
+  </div>
+
+</body>
+
+</html>
