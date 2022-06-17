@@ -1,0 +1,50 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 500px;
+  background: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  width: 300px;
+  height: 150px;
+  background-color: blueviolet;
+  margin: 0 10px;
+}
+
+@supports (display: flex) {
+  @media screen and (max-width: 320px) {
+    .container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+
+/* //Flexbox */
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  flex: 1 1 300px;
+}
+
+section {
+  display: flex;
+}
