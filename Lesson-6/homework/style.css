@@ -45,6 +45,6 @@
   background-image: url('./images/star1.png');
 }
 
-.star:hover, .star:hover ~ .star {
+.star:hover ~ .star {
   background-image: url('./images/star0.png');
 }
