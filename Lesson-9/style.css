@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 1fr 1fr;
+  gap: 24px;
+  border: 2px dashed red;
+  height: 300px;
+}
+
+.item {
+  background: aqua;
+}
+
+.item-1 {
+  
+}
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+.item-3 {
+
+} */
+
+
+/* @keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animation {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.animation:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-delay: .5;
+  animation-direction: normal;
+  animation-iteration-count: 10;
+  animation-timing-function: ease-in-out;
+  animation-play-state: running;
+} */
+
+/* .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 2s linear forwards infinite;
+  animation-play-state: running;
+}
+
+.path:hover {
+  animation-play-state: running;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
