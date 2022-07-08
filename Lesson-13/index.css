@@ -1,0 +1,26 @@
+/* .slider {
+  display: flex;
+  transition: transform .5s;
+  transform: translateX(calc(-1920px * 2));
+} */
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  min-height: 300px;
+  width: 1920px;
+  flex-shrink: 0;
+}
+
+.slide:nth-child(1) {
+  background-color: aqua;
+}
+.slide:nth-child(2) {
+  background-color: red;
+}
+.slide:nth-child(3) {
+  background-color: palegreen;
+}
